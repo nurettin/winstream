@@ -15,3 +15,9 @@
 	<stdexcept>
 	<windows.h>
 
+1318839523 source:c:\documents and settings\administrator\projects\turgay\winstream\winstream.cpp
+	<streambuf>
+	<iostream>
+	<stdexcept>
+	<windows.h>
+
