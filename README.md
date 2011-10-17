@@ -2,20 +2,20 @@
 Türkçe
 ======
 
-Açiklama
+Açıklama
 --------
 	
-	Windows XP isletim sisteminde Code::Blocks ile ders vermeyi kolaylastirmak için yazilmistir. Windows konsolu için std::cout nesnesinin streambuf niteligini WriteConsole kullanacak sekilde modifiye eder.
+	Windows XP işletim sisteminde Code::Blocks ile ders vermeyi kolaylaştırmak için yazılmıştır. Windows konsolu için std::cout nesnesinin streambuf niteliğini WriteConsole kullanacak şekilde modifiye eder.
 
-Kullanim
+Kullanım
 --------
 	
-	winstream.cpp dosyasini projenize kopyalamaniz yeterli. 
+	winstream.cpp dosyasını projenize kopyalamanız yeterli. 
 
 Notlar
 ------
 
-	winstream.cpp'nin link zamani std::cout'un ayarlarini yapan libstdc++ baglama zamanindan once olmali. Bunu yapmanin deterministik bir yontemi yok, simdilik windows/mingw/gcc'den gozlemlenmis davranis std::cout ayarlamasinin winstream'den önce olmasi. 
+	winstream.cpp'nin link zamanı std::cout'un ayarlarını yapan libstdc++ baglama zamanından önce olmali. Bunu yapmanın deterministik bir yöntemi yok, şimdilik windows/mingw/gcc'den gözlemlenmiş davranış std::cout ayarlamasının winstream'den önce olması. 
 
 
 English
