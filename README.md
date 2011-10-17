@@ -5,7 +5,7 @@ Türkçe
 Açıklama
 --------
 
-Windows XP işletim sisteminde Code::Blocks ile ders vermeyi kolaylaştırmak için yazılmıştır. Windows konsolu için std::cout nesnesinin streambuf niteliğini WriteConsole kullanacak şekilde modifiye eder.
+Windows XP işletim sisteminde Code::Blocks ile UTF-8 ortamında ders vermeyi kolaylaştırmak için yazılmıştır. Windows konsolu için std::cout nesnesinin streambuf niteliğini WriteConsole kullanacak şekilde modifiye eder.
 
 Kullanım
 --------
@@ -24,7 +24,7 @@ English
 Explanation
 -----------
 
-Written to simplify teaching with Code::Blocks in class. Alters the streambuf of std::cout to use WriteConsole on Windows console.
+Written to simplify teaching with Code::Blocks in class in a UTF-8 environment. Alters the streambuf of std::cout to use WriteConsole on Windows console.
 
 Usage
 -----
