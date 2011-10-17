@@ -8,6 +8,5 @@ int main()
     std::string str;
     std::getline(std::cin,str);
     std::cout<< "Selâmü Aleyküm "<< str<< '\n';
-    return 0;
 }
 
