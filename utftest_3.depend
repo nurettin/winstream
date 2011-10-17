@@ -1,23 +1,12 @@
 # depslib dependency file v1.0
-1318828744 source:c:\documents and settings\administrator\projects\turgay\utftest_3\main.cpp
-	"winstream.h"
-	<string>
-
-1318828533 c:\documents and settings\administrator\projects\turgay\utftest_3\wincout.h
-	<streambuf>
-	<iostream>
-	<stdexcept>
-	<windows.h>
-
-1318829791 c:\documents and settings\administrator\projects\turgay\utftest_3\winstream.h
-	<streambuf>
-	<iostream>
-	<stdexcept>
-	<windows.h>
-
 1318839523 source:c:\documents and settings\administrator\projects\turgay\winstream\winstream.cpp
 	<streambuf>
 	<iostream>
 	<stdexcept>
 	<windows.h>
+
+1318839878 source:c:\documents and settings\administrator\projects\turgay\winstream\main.cpp
+	<iostream>
+	<ostream>
+	<string>
 
