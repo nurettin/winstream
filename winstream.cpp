@@ -30,6 +30,7 @@ THE SOFTWARE.
 #include <iostream>
 #include <stdexcept>
 #include <windows.h>
+#include <tchar.h>
 
 struct WinApiStreambuf: std::streambuf
 {
@@ -64,7 +65,7 @@ struct Console
         typedef BOOL (WINAPI *SetConsoleFont_t)(HANDLE, DWORD);
         typedef DWORD (WINAPI *GetNumberOfConsoleFonts_t)();
 
-        HMODULE hm = GetModuleHandle("kernel32.dll");
+        HMODULE hm = GetModuleHandle(_T("kernel32.dll"));
 
         SetConsoleFont_t SetConsoleFont= (SetConsoleFont_t)GetProcAddress(hm, "SetConsoleFont");
         GetNumberOfConsoleFonts_t GetNumberOfConsoleFonts= (GetNumberOfConsoleFonts_t)GetProcAddress(hm, "GetNumberOfConsoleFonts");
