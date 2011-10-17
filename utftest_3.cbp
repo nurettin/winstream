@@ -31,8 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="README.md" />
 		<Unit filename="main.cpp" />
-		<Unit filename="wincout.h" />
+		<Unit filename="winstream.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
