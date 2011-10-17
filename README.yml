@@ -8,4 +8,3 @@ en:
 	explanation: Written to simplify teaching with Code::Blocks in class. Alters the streambuf of std::cout to use WriteConsole on Windows console. 
 	usage: Just copy the winstream.cpp file to your project.
 	notes: winstream.cpp must be linked after libstdc++ which initializes std::cout. There is no deterministic way of doing this, but the observed behavior on windows/mingw/gcc is that std::cout initializes first. 
-Note: 
