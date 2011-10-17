@@ -27,12 +27,14 @@ THE SOFTWARE.
 #include <iostream>
 #include <ostream>
 #include <string>
+#include <windows.h>
 
 int main()
 {
     std::cout<< "Adınız Nedir? ";
     std::string str;
-    std::getline(std::cin,str);
+    std::getline(std::cin, str);
     std::cout<< "Selâmü Aleyküm "<< str<< '\n';
+	std::cin.get();
 }
 
