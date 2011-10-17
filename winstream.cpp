@@ -1,3 +1,5 @@
+#ifdef WIN32
+
 #include <streambuf>
 #include <iostream>
 #include <stdexcept>
@@ -58,3 +60,4 @@ struct Console
 
 }
 
+#endif
