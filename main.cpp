@@ -4,9 +4,9 @@
 int main()
 {
     std::cout<< "Adınız Nedir? ";
-    std::string ad;
-    std::getline(std::cin, ad);
-    std::cout<< "Merhaba "<< ad<< '\n';
+    std::string str;
+    std::getline(std::cin,str);
+    std::cout<< "Selâmü Aleyküm "<< str<< '\n';
     return 0;
 }
 

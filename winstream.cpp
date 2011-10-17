@@ -29,7 +29,7 @@ struct Console
 
     Console()
     {
-        SetConsoleOutputCP(65001);
+        SetConsoleOutputCP(CP_UTF8);
         WinApiStreambuf* win_streambuf= new WinApiStreambuf;
         cout_streambuf= std::cout.rdbuf(win_streambuf);
 
